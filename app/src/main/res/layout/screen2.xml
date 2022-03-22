@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/importButton"
+        android:layout_width="280dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="103dp"
+        android:layout_weight="1"
+        android:backgroundTint="#FFEB3B"
+        android:text="IMPORT"
+        android:textSize="20px" />
+
+    <Button
+        android:id="@+id/captureButton"
+        android:layout_width="280dp"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="111dp"
+        android:layout_weight="1"
+        android:editable="true"
+        android:text="CAPTURE"
+        android:textSize="20px"/>
+
+    <Button
+        android:id="@+id/learnButton"
+        android:layout_width="280dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="336dp"
+        android:layout_weight="1"
+        android:backgroundTint="#FF9800"
+        android:text="LEARN"
+        android:textSize="20px" />
+</RelativeLayout>
