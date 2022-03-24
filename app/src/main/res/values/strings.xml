@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">chromaticLens</string>
+    <string name="learn">Learn</string>
+    <string name="capture">Capture</string>
 </resources>
