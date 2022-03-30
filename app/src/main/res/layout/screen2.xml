@@ -3,7 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:clickable="true"
+    tools:context=".Screen2">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -24,6 +26,7 @@
             android:textAllCaps="false"
             android:textColor="#000000"
             android:textSize="22sp"
+            android:onClick="onLearnClick"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -46,6 +49,7 @@
             android:textAllCaps="false"
             android:textColor="#000000"
             android:textSize="22sp"
+            android:onClick="onCaptureClick"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -63,6 +67,7 @@
             android:shadowDy="4"
             android:shadowRadius="1"
             android:text="Import"
+            android:onClick="onImportClick"
             android:textAllCaps="false"
             android:textColor="#000000"
             android:textSize="22sp"
