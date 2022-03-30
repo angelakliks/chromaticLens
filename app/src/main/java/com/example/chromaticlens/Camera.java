@@ -1,7 +1,9 @@
 package com.example.chromaticlens;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.provider.MediaStore;
 import android.view.SurfaceHolder;
 
 
@@ -27,13 +29,16 @@ public class Camera extends Object{
         return c; // returns null if camera is unavailable
     }
 
+    //public?
     private static Camera open() {
-        //Fill
-        return xCamera;
+      Intent cameraIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+
+
+        return null;
     }
 
     public final void release (){
-        //Fill
+     // x.setCamera(null);
     }
 
 
